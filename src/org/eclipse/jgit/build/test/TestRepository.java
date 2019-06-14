@@ -65,4 +65,10 @@ public class TestRepository extends Repository {
     return null;
   }
 
+  @Override
+  public String getIdentifier() {
+    // TODO Auto-generated method stub
+    return null;
+  }
+
 }
