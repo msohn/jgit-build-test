@@ -8,7 +8,7 @@
   <name>jgit maven build test</name>
 
   <properties>
-    <jgit-version>5.7.0.202003110725-r</jgit-version>
+    <jgit-version>5.8.0-SNAPSHOT</jgit-version>
   </properties>
 
   <build>
@@ -58,6 +58,11 @@
     </dependency>
     <dependency>
       <groupId>org.eclipse.jgit</groupId>
+      <artifactId>org.eclipse.jgit.gpg.bc</artifactId>
+      <version>${jgit-version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.jgit</groupId>
       <artifactId>org.eclipse.jgit.http.apache</artifactId>
       <version>${jgit-version}</version>
     </dependency>
@@ -76,7 +81,11 @@
       <artifactId>org.eclipse.jgit.junit.http</artifactId>
       <version>${jgit-version}</version>
     </dependency>
-
+    <dependency>
+      <groupId>org.eclipse.jgit</groupId>
+      <artifactId>org.eclipse.jgit.junit.ssh</artifactId>
+      <version>${jgit-version}</version>
+    </dependency>
     <dependency>
       <groupId>org.eclipse.jgit</groupId>
       <artifactId>org.eclipse.jgit.lfs</artifactId>
@@ -92,7 +101,16 @@
       <artifactId>org.eclipse.jgit.pgm</artifactId>
       <version>${jgit-version}</version>
     </dependency>
-
+    <dependency>
+      <groupId>org.eclipse.jgit</groupId>
+      <artifactId>org.eclipse.jgit.ssh.apache</artifactId>
+      <version>${jgit-version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.jgit</groupId>
+      <artifactId>org.eclipse.jgit.ssh.jsch</artifactId>
+      <version>${jgit-version}</version>
+    </dependency>
     <dependency>
       <groupId>org.eclipse.jgit</groupId>
       <artifactId>org.eclipse.jgit.ui</artifactId>
