@@ -8,7 +8,7 @@
   <name>jgit maven build test</name>
 
   <properties>
-    <jgit-version>5.8.0.202006091008-r</jgit-version>
+    <jgit-version>5.8.1.202007141445-r</jgit-version>
   </properties>
 
   <build>
@@ -35,7 +35,7 @@
       </snapshots>
       <id>jgit-oss-staging</id>
       <name>JGit OSS staging repository</name>
-      <url>https://oss.sonatype.org/content/repositories/orgeclipsejgit-1175</url>
+      <url>https://oss.sonatype.org/content/repositories/orgeclipsejgit-1176</url>
       <layout>default</layout>
     </repository>
   </repositories>
