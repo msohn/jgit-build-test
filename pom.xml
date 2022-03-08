@@ -8,7 +8,8 @@
   <name>jgit maven build test</name>
 
   <properties>
-    <jgit-version>6.0.0.202111291000-r</jgit-version>
+	<java.version>11</java.version>
+    <jgit-version>6.1.0.202203080745-r</jgit-version>
   </properties>
 
   <build>
@@ -17,6 +18,11 @@
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.7.0</version>
+        <configuration>
+          <encoding>UTF-8</encoding>
+          <release>${java.version}</release>
+          <fork>true</fork>
+        </configuration>
       </plugin>
     </plugins>
   </build>
@@ -35,7 +41,7 @@
       </snapshots>
       <id>jgit-oss-staging</id>
       <name>JGit OSS staging repository</name>
-      <url>https://oss.sonatype.org/content/repositories/orgeclipsejgit-1192</url>
+      <url>https://oss.sonatype.org/content/repositories/orgeclipsejgit-1193</url>
       <layout>default</layout>
     </repository>
   </repositories>
