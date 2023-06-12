@@ -9,7 +9,7 @@
 
   <properties>
 	<java.version>11</java.version>
-    <jgit-version>6.5.0.202303070854-r</jgit-version>
+    <jgit-version>6.6.0.202305301015-r</jgit-version>
   </properties>
 
   <build>
@@ -41,7 +41,7 @@
       </snapshots>
       <id>jgit-oss-staging</id>
       <name>JGit OSS staging repository</name>
-      <url>https://oss.sonatype.org/content/repositories/orgeclipsejgit-1194</url>
+      <url>https://oss.sonatype.org/content/repositories/orgeclipsejgit-1196</url>
       <layout>default</layout>
     </repository>
   </repositories>
