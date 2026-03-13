@@ -9,7 +9,7 @@
 
   <properties>
 	<java.version>17</java.version>
-    <jgit-version>7.5.0.202512021534-r</jgit-version>
+    <jgit-version>7.6.0.202603022253-r</jgit-version>
   </properties>
 
   <build>
